@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- html elements -->
+    <!-- h1-h6 are used for headings and they are bold -->
+    <h1>hello World1</h1>
+    <h2>hello World2</h2>
+    <h3>hello World3</h3>
+    <h4>hello World4</h4>
+    <h5>hello World5</h5>
+    <h6>hello World6</h6>
+
+    <!-- p is used for paragraph -->
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis ut tenetur, illum libero quaerat incidunt commodi quam expedita, vero delectus necessitatibus laudantium molestias cum! Quod deserunt error perspiciatis illo repellendus.
+    </p>
+
+    <!-- element for media -->
+    <img src="" alt="">
+    <!-- Here, audio and video won't work without controls attrubute -->
+    <audio src="" controls></audio>
+    <video src="" controls></video>
+
+    <!-- More element -->
+    <b>This is bold text</b>
+    <strong>This is strong text</strong>
+    <!-- bold and strong elements might be similar but used for different purpose -->
+
+    <br><!-- this br element used for line break -->
+    <hr><!-- this hr element is used for line -->
+
+    <!-- i and em might be the same but used for different purpose -->
+    <i>This is italic text</i>
+    <em>This is empahsized text</em>
+
+    <mark>This is highlight</mark>
+    <small>This is small text</small>
+
+    <a href="https://www.google.com/" blinks>Google</a>
+    <!-- a is used for link and blinks is attribute to open new tab -->
+
+    <!-- superscript and subscript are used for mathematics and some formula -->
+    <p>x <sup>3</sup> and H <sub>2</sub> SO <sub>4</sub> </p>
+
+    <!-- Sometimes we need to embed another website in our website so we use iframe element. We just need to go to the website we want and copy the ifream link-->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/jT5VCHzQtPs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>
