@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day-4</title>
+</head>
+<body>
+    <h3>Table</h3>
+    <!-- there is only 3 part-thead,tbody,tfooter -->
+    <!-- As we are usign html, we are just making structure -->
+    <table>
+        <caption>School Attendance</caption>
+        <thead>
+            <!-- by using th here, you will get bold text and text-aligh center-->
+            <th>Student Name</th>
+            <th>First Sem attendance</th>
+            <th>Second Sem attendance</th>
+            <th>Third Sem Attendance</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Malur</td>
+                <td>60%</td>
+                <td>80%</td>
+                <td>75%</td>
+            </tr>
+            <tr>
+                <td>Liam</td>
+                <td>40%</td>
+                <td>39%</td>
+                <!-- we use rowspan to merge cells in two rows -->
+                <td rowspan="2">65%</td>
+            </tr>
+            <tr>
+                <td>Micheal</td>
+                <td>90%</td>
+                <td>70%</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Mabelline</td>
+                <td>45%</td>
+                <!-- we use colspan to use cells in two column -->
+                <td colspan="2">Drop out</td>
+            </tr>
+        </tbody>
+    </table>
+    <ul>
+        <h3>Unordered list</h3>
+        <li>orange</li>
+        <li>apple</li>
+        <li>banana</li>
+        <li>
+            <ol>
+                <li>Pineappple</li>
+                <li>Guava</li>
+            </ol>
+        </li>
+    </ul>
+    <ol>
+        <h3>Ordered list</h3>
+        <li>This is 1</li>
+        <li>This is 2</li>
+        <li>This is 3</li>
+    </ol>
+</body>
+</html>
