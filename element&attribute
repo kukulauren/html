@@ -22,7 +22,7 @@
     </p>
 
     <!-- element for media -->
-    <img src="" alt="">
+    <img src="" alt=""> <!-- Here we need to fill some text in alt attribute to show some description of the image -->
     <!-- Here, audio and video won't work without controls attrubute -->
     <audio src="" controls></audio>
     <video src="" controls></video>
