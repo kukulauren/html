@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University of Melobrone </title>
+</head>
+<body>
+    <header>
+        <h2>UOM</h2>
+        <nav>
+            <a href="./home.html">Home</a>
+            <a href="./login.html">Signup</a>
+            <a href="./about.html">About</a>
+            <a href="./Contact-us.html">Contact Us</a>
+        </nav>
+    </header>
+    <br>
+        <section>
+            <form action="post">
+                <fieldset>
+                    <legend>Signup</legend>
+                    <label for="fname">First Name:</label>
+                    <input type="text" id="fname" required>
+                    <br>
+                    <label for="lname">Last Name:</label>
+                    <input type="text" id="lname" required>
+                    <br>
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" required placeholder="name@gmail.com">
+                    <br>
+                    <label for="pq">Password:</label>
+                    <input type="password" id="pw" required>
+                    <br>
+                    <label for="">Gender:</label>
+                    <input type="radio" value="Male" name="gender" id="male">
+                    <label for="male">Male</label>
+                    <input type="radio" value="fMale" name="gender" id="fmale">
+                    <label for="fmale">Female</label>
+                    <input type="radio" value="na" name="gender" id="na">
+                    <label for="na">Not Answer</label>
+                    <br>
+                    <label for="">Your Interests and Hobbies:</label>
+                    <br>
+                    <input type="checkbox" value="FE" id="fe" name="i&h">
+                    <label for="fe">Front-end</label>
+                    <input type="checkbox" value="BE" id="be" name="i&h">
+                    <label for="be">Back-end</label>
+                    <input type="checkbox" value="IT" id="IT" name="i&h">
+                    <label for="IT">Information Technology</label>
+                    <input type="checkbox" value="Graphic" id="Graphic" name="i&h">
+                    <label for="Graphic">Graphic</label>
+                    <br>
+                    <label for="">Year of Attendees</label>
+                    <select name="year" id="">
+                        <option value="fst">First Year</option>
+                        <option value="snd">Second Year</option>
+                        <option value="trd">Third Year</option>
+                        <option value="fne">Final Year</option>
+                    </select><br>
+                    <label for="">Upload Picture for Your Profile</label>
+                    <input type="file" acceipt="img/jpg,img/png,img/jpeg" required>
+                    <br>
+                    <input type="submit">
+                </fieldset>
+            </form>
+        </section>
+        <hr>
+    <footer>
+            &copy; University of Melobrone
+    </footer>
+</body>
+</html>
