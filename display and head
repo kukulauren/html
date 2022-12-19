@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- element between head tag support the web page but not appear on the web page -->
+    <!-- UTF-8 supports many characters like Chinese while ASCII doesn't support -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- viewport and content device width let us have responsive website -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link rel stylesheet is used to connect html file with css -->
+    <link rel="stylesheet" href="">
+    <!-- link icon is used for the icon for your web -->
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/en/6/6d/Olaf_from_Disney%27s_Frozen.png">
+    <!-- script is used to connet with JavaScript file --!>
+    <script src=" "></script>
+    <!-- title is used to display the name for the web --!>
+    <title>Frozen</title>
+</head>
+<body>
+    <!-- block element takes the whole line as its width and doesn't allow others to come up to its place -->
+    <h1>Min Ga Lapar</h1>
+    <h1>Min Ga Lapar</h1>
+    <h1>Min Ga Lapar</h1>
+
+    <!-- sometimes we might use span element -->
+    <div>
+        <span>Aloa</span>
+        <span>AMora</span>
+    </div>
+
+    <!-- div means division and it groups inline element as a block element -->
+    <div>
+        <a href="https://google.com/">Google</a>
+        <a href="https://gmail.com/">Google</a>
+    </div>
+    <div>
+        <a href="https://facebook.com/">Google</a>
+        <a href="https://www.google.com/docs/about/">Google</a>
+    </div>
+</body>
+</html>
