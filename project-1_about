@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University of Melobrone </title>
+</head>
+<body>
+    <header>
+        <h2>UOM</h2>
+        <nav>
+            <a href="./home.html">Home</a>
+            <a href="./login.html">Signup</a>
+            <a href="./about.html">About</a>
+            <a href="./Contact-us.html">Contact Us</a>
+        </nav>
+    </header>
+    <section>
+        <h3>Melobrone University</h3>
+        <img src="https://thumbs.dreamstime.com/b/old-fashioned-brickwall-factory-building-against-blue-sky-beautiful-sunny-day-bronx-new-york-165791849.jpg" alt="Building" height="400px">
+        <p>Our campaus is situated in the Central North Melobrone. As having a good surrounding,fresh air and good weather, we are giving a stress-free environment. We provide full of facilities and great teachers to students.
+        We have many scholarships and intern ship oppotunities after attending university.
+        </p>
+    </section>
+    <article>
+        <h3>Bachelor and Master Degree</h3>
+        <img src="https://www.zdnet.com/a/img/resize/0a6b0be2f543ddbf313fc83a706b807b77c3c202/2021/07/19/8a337c80-5ed6-43a1-98fb-b981d420890f/programming-languages-shutterstock-1680857539.jpg?auto=webp&fit=crop&height=900&width=1200" alt="programming languages photo" height="200px">
+        <p>Computer Science</p>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDzklPE9NpE2M7fyzyYCiaTZnHc5ZjG5QmIyM9xzqQsyCqY0IGjwErhxT_2fRgUdJE4FU&usqp=CAU" alt="Earth and computers">
+        <p>Information Techonology</p>
+        <img src="https://visme.co/blog/wp-content/uploads/2021/10/what-is-graphic-design-header-1200.png" alt="computer and graphic design apps" height="200px">
+        <p>Graphic Design</p>
+    </article>
+    <article>
+        <h3>
+            Get 2-3 years Diploma Degree
+        </h3>
+        <a href="#">
+            <img src="https://thumbs.dreamstime.com/b/javascript-front-end-code-computer-programming-source-code-abstract-screen-web-developer-javascript-front-end-code-computer-104079249.jpg" alt="javascript" height="200px">
+        <p>Front-end programming</p>
+        </a>
+        <a href="#">
+            <img src="https://learntocodewith.me/wp-content/uploads/2019/01/PHP.jpg" alt="back_end" height="200px">
+        <p>Back-end programming</p>
+        </a>
+    </article>
+    <article>
+        <h3>Annual Average Cost for subjects</h3>
+        <table>
+            <thead>
+                <th>&nbsp; &nbsp;&nbsp; &nbsp;</th>
+                <th>Tution fees</th>
+                <th>Living Expenses</th>
+                <th>Commuting Expenses</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>First Year</td>
+                    <td>2500$</td>
+                    <td rowspan="3">2000$</td>
+                    <td>1000$</td>
+                </tr>
+                <tr>
+                    <td>Seond Year</td>
+                    <td>3000$</td>
+                    <td>1200$</td>
+                </tr><tr>
+                    <td>Third Year</td>
+                    <td>3500$</td>
+                    <td>1500$</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>
+                        Total
+                    </td>
+                    <td>9000$</td>
+                    <td>6000$</td>
+                    <td>3700$</td>
+                </tr>
+            </tfoot>
+        </table>
+    </article><hr>
+    <footer>
+            &copy; University of Melobrone
+    </footer>
+</body>
+</html>
