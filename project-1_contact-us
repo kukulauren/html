@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University of Melobrone </title>
+</head>
+<body>
+    <header>
+        <h2>UOM</h2>
+        <nav>
+            <a href="./home.html">Home</a>
+            <a href="./login.html">Signup</a>
+            <a href="./about.html">About</a>
+            <a href="./Contact-us.html">Contact Us</a>
+        </nav>
+    </header>
+    <section>
+        <h3>Contact Us</h3>
+        <ul>
+            <li>Phone: <a href="tel:">06299271578</a></li>
+            <li>Email: <a href="mailto:uom1829@uomedu.com">uom1829@uomedu.com</a></li>
+            <li>
+                Address: 142* Melobrone Street, Melobrone City, Kpaula
+            </li>
+        </ul>
+    </section>
+    <section>
+        <fieldset>
+            <legend>Contact Form</legend>
+            <form action="post">
+                <label for="name">Name:</label>
+                        <input type="text" id="name" required>
+                        <br>
+                        <label for="ph">Phone Number:</label>
+                        <input type="phone" id="ph" required>
+                        <br>
+                        <label for="message">Message:</label>
+                        <br>
+                        <textarea name="" id="message" cols="30" rows="3"></textarea>
+                        <br>
+                        <button>Send</button>
+                </form>
+        </fieldset>
+    </section>
+    <hr>
+    <footer>
+            &copy; University of Melobrone
+    </footer>
+</body>
+</html>
